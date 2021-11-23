@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Gallery</title>
+  		<link rel="icon" type="image/x-icon" href="favicon_1.ico">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">			
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+
+	<body style="background-color:black;">
+		
+		<div class="top-container">
+		
+				<div class="logo">
+					<a href=""><img src="images/logo.png" width="200" height="200"></a>
+				</div>
+			
+
+			<div id="nav_bar">
+	
+				<div class="main">
+				<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Menu.html">Menu</a></li>
+				<li><a href="Order.html">Order Online</a></li>
+				<li><a href="Info.html">Info</a></li>
+				<li><a href="Gallery.html" class="current">Pictures</a></li>
+				<li><a href="upcoming.html">Upcoming Events</a></li>
+				</ul>
+				</div>
+				
+		
+		
+					
+				<br>
+				<br>
+		<div class="middle-container">
+				
+			<h2>OUR SPECIALITY : </h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="images/combo.jpeg" style="width:100%">
+  <div class="text">DOSA COMBO</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="images/idli.jpeg" style="width:100%">
+  <div class="text">IDLI</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="images/vada.jpg" style="width:100%">
+  <div class="text">MEDU VADA</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="images/biryani.jpg" style="width:100%">
+  <div class="text">BIRYANI</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="images/butterchicken.jpg" style="width:100%">
+  <div class="text">BUTTER CHICKEN</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/samosa.jpeg" style="width:100%">
+  <div class="text">SAMOSA</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+
+			</div>
+
+				
+				
+				<div class="bottom-container">
+					 <a href="https://www.facebook.com/ChennaiExpressMTL" target="_blank"><img src="images/fb.png" id="fb"></a>
+     					 <a href="https://www.instagram.com" target="_blank"><img src="images/insta.png" id="insta"></a>
+     					 <p class="end">© 2021 Powered by Chennai Express.</p>
+
+				</div>
+
+				
+	</body>
+</html>
